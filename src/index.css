@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#header{
+  margin-top: 2em;
+}
+
+#header > .title {
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.line > span {
+  border: 0px solid black;
+  width: 80px;
+  background-color: #c59d5f !important;
+  height: 5px;
+}
+.menu_list{
+  margin-bottom: 2em;
+}
+
+.menu_list > ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu_list > ul li {
+  margin: 2%;
+  color: #c59d5f;
+  margin-top: 2em;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+
+}
+
+.menu_list > ul li:hover {
+  background-color: #c59d5f;
+  color: white;
+}
+
+/*Main*/
+
+.main {
+  display: flex;
+}
+
+.menu_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 3rem;
+  width: 90vw;
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  border: 3px solid #c59d5f;
+  border-radius: 2px;
+}
+
+.menu_name_preis > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.menu_line {
+  border: 0.1px dashed black;
+  margin-top: 0.7em;
+  width: 90vw;
+}
+
+.menu_content {
+  width: 90vw;
+  padding-top: 1em;
+  color: #617d98;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    padding: 1em;
+  }
+
+  .main > div {
+    display: flex;
+  }
+
+  .tablet_main_right {
+    margin-left: 1em;
+  }
+
+  .menu_line {
+    margin-top: 0.7em;
+    width: 50vw;
+  }
+
+  .menu_img {
+    width: 15em;
+    height: 13em;
+    margin-top: 0;
+  }
+
+  .menu_content {
+    width: 50vw;
+  }
+
+  .menu_name_preis > div {
+    display: flex;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .menu_img {
+    width: 13em;
+    height: 11em;
+  }
+
+  .menu_line {
+    width: 25em;
+  }
+
+  .menu_content {
+    width: 25em;
+  }
+}
