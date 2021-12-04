@@ -10,7 +10,7 @@ ReactDOM.render(
     <Route exact path="/">
       <Home />
     </Route>
-    <Route exact path="/category/:category">
+    <Route path="/category/:category">
       <Category />
     </Route> 
 
