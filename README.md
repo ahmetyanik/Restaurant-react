@@ -26,4 +26,4 @@ This project is made with react. This project demonstrates filtering by url path
 ## Contact
 
 Created by Ahmet Yanik - feel free to contact me for any inquiries!
-ahmetyank4242@gmail.com
+ahmetyanikdev@gmail.com
